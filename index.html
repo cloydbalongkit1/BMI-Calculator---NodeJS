@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
+    
+    <style>
+        body {
+            background-color: #146C94;
+        }
+
+        input {
+            border-style: none;
+            border-radius: 10px;
+        }
+
+        .title {
+            font-family: 'Work Sans', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sub-container {
+            display: flex;
+            flex-direction: column;
+            background-color:#98EECC;
+            padding: 5rem;
+            border-radius: 20px;
+            margin-top: 3rem;
+        }
+
+        .contents {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0.5rem;
+            margin: 1rem;
+        }
+
+        .sub-sub-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .btn {
+            margin: auto;
+            border-radius: 10px;
+            background-color: #B8B5FF;
+            border: 1;
+            border-style: none;
+            padding: 1rem;
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <h1 class="title">BMI Calculator</h1>
+            <form class="form-input" action="" method="post">
+                <input class="contents" type="text" name="number1" placeholder="Weight in kgs: ">
+                <input class="contents" type="text" name="number2" placeholder="Height in mts: ">
+                <button class="btn contents" type="submit" name="submit">Calculate</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
